@@ -76,8 +76,8 @@
             <h4 class="card-header bg-dark text-light">
               Done
             </h4>
-            <ul id="list-done" class="list-group">
-              <li class="list-group-item">
+            <ul id="list-done" class="list-group list-group-flush">
+              <li class="list-group-item"> 
               <span class="badge badge-primary badge-pill">05/28/2020</span>
               <p class="m-1">Sample task that's done</p>
             </li>
@@ -86,14 +86,15 @@
       </div>
         <!-- done end -->
     </div>
-    <div id="trash class="mt-auto">
+    <div id="trash">
+      <div id="mt-auto">
       <div class="w-100 bg-danger p-3 text-center text-light display-4">
         Drop Here to Remove.
       </div>
     </div>
-    </main>
   </div>
-
+  </main>
+  
   <!-- Modal -->
   <div class="modal fade" id="task-form-modal" tabindex="-1" role="dialog" aria-labelledby="task-form-modal"
     aria-hidden="true">
@@ -121,13 +122,16 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save Task</button>
         </div>
-      </div>
+      </div>  
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- add the js file here -->
+  <script src="https://cdnjs.cloudfare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./assets/js/script.js"></script>
 </body>
 
